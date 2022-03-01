@@ -1422,7 +1422,7 @@ function Get-ODTOfficeProductLanguages {
 
     Begin {
         $defaultDisplaySet = 'DisplayName','Languages'
-        $defaultDisplayPropertySet = New-Object System.Management.Automation.PSPropertySet(‘DefaultDisplayPropertySet’,[string[]]$defaultDisplaySet)
+        $defaultDisplayPropertySet = New-Object System.Management.Automation.PSPropertySet('DefaultDisplayPropertySet',[string[]]$defaultDisplaySet)
         $PSStandardMembers = [System.Management.Automation.PSMemberInfo[]]@($defaultDisplayPropertySet)
         $results = New-Object PSObject[] 0
     }
